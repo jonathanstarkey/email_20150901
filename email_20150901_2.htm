@@ -7,14 +7,14 @@
  </head>
  <style>
      
-     .productLeftColumn {
+/*     .productLeftColumn {
         padding-right: 7px;
      }
      
      .productRightColumn {
         padding-left: 7px;
      }
-    
+    */
       /*----- RESET STYLES -----*/
 			body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
 			table{border-collapse:collapse;}
@@ -49,14 +49,8 @@ body {width:100% !important; min-width:100% !important;} /* Force iOS Mail to re
 /*////// GENERAL STYLES //////*/
     
 				
-img[id="heroImage"] {height:auto !important; max-width:600px !important; width:100% !important;}
-    
-img[id="headerImage-1"] {height:auto !important; max-width:600px !important; width:100% !important;}
-
-td[class="productLeftColumn"] {display: inline-block !important; width:50% !important;}
-    
-
-			}
+img[id="heroImage"] {height:auto !important; max-width:600px !important; width:50% !important;    
+}
 
 @media only screen and (max-width: 600px){
 
@@ -70,7 +64,7 @@ td[id="eventContainer"], td[id="ruleContainer"], td[id="productContainer"] {
 /*////// GENERAL STYLES //////*/
 
 @media only screen and (max-width: 479px) { 
-    td[class="productLeftColumn"], td[class="productRightColumn"]{padding:0 !important; display:block !important; width:100% !important;}
+    td[class="productLeftColumn"], td[class="productRightColumn"]{padding:0 !important; width:100% !important;}
 
     img[id="productImage"] {height:auto !important; max-width:600px !important; width:100% !important;}
 
@@ -89,7 +83,6 @@ td[id="eventContainer"], td[id="ruleContainer"], td[id="productContainer"] {
      <!-- // BEGIN EMAIL -->
      <!-- // NAV BEGIN -->
      <table border="0" cellpadding="0" cellspacing="0" width="600">
-      <tr>
       <tr>
        <td valign="top" style="font-size:0;"><a href="https://www.fatbraintoys.com/toys/toys_by_ages/ages.cfm?tid=email_20150818&amp;utm_source=email_20150818&amp;utm_medium=email&amp;utm_campaign=email_20150818"><img  style="display: block"  alt="Shop by Age" border="0" src="img/email_20150901_2-01_01.gif" width="121"  height="80"/></a></td>
        <td valign="top" style="font-size:0;"><a href="https://www.fatbraintoys.com/specials/top_sellers.cfm?tid=email_20150818&amp;utm_source=email_20150818&amp;utm_medium=email&amp;utm_campaign=email_20150818"><img style="display: block"  alt="Best Sellers" border="0" src="img/email_20150901_2-01_02.gif" width="118" height="80" /></a></td>
@@ -124,10 +117,10 @@ td[id="eventContainer"], td[id="ruleContainer"], td[id="productContainer"] {
      <!-- // BEGIN TOYS PRODUCT SECTION 1 -->   
     <table border="0" cellpadding="0" cellspacing="0" width="600">
         <tr>
-            <td align="center" valign="top" width="50%" class="productLeftColumn"> 
+            <td align="center" valign="top" class="productLeftColumn"> 
                 <a href=""><img style="display: block" id="productImage" alt="" border="0" src="img/email_20150901_2-01_08.gif"  width="293" height="383"/>
             </td>
-            <td align="center" valign="top" width="50%" class="productRightColumn">
+            <td align="center" valign="top" class="productRightColumn">
                 <a href=""><img style="display: block" id="productImage" alt="" border="0" src="img/email_20150901_2-01_10.gif"  width="293" height="383"/>
             </td>
         </tr>
